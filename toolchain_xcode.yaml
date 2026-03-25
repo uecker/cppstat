@@ -499,3 +499,9 @@ infos:
     apple_clang: 17.0.0 (clang-1700.6.4.2)
     refs:
       - https://developer.apple.com/documentation/xcode-release-notes/xcode-26_3-release-notes
+
+  - name: Xcode 26.4
+    released: March 24, 2026
+    requires: macOS 26.2 (Tahoe)
+    apple_clang: 21.0.0 (clang-2100.0.123.102)
+    refs: [https://developer.apple.com/documentation/xcode-release-notes/xcode-26_4-release-notes]
