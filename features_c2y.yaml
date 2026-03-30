@@ -51,8 +51,14 @@ features:
   - desc: "Remove imaginary types"
     paper: N3274
     support:
+      - GCC
       - Clang
       - Xcode ?
+    hints:
+      - target: GCC
+        msg: "GCC has never supported imaginary types."
+      - target: Clang
+        msg: "Clang has never supported imaginary types."
 
   - desc: "Floating-point exceptions for macro replacements"
     paper: N3286
