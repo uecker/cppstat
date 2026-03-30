@@ -121,6 +121,11 @@ features:
         msg: "Only `_Float16` is supported."
       - target: Xcode
         msg: "Only `_Float16` is supported."
+  - desc: "Compatibility of Pointers to Arrays with Qualifiers"
+    paper: N2607
+    support:
+      - GCC 5
+      - Clang 3
   - desc: "Digit separators"
     paper: N2626
     content: c-digit-separators.md
