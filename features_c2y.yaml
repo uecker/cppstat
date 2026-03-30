@@ -124,6 +124,11 @@ features:
       - Clang
       - Xcode 16.4
 
+  - desc: "Matching of Multi-Dimensional Arrays in Generic Selection Expressions"
+    paper: N3348
+    support:
+      - GCC 16
+
   - desc: "Obsolete implicitly octal literals and delimited escape sequences"
     paper: N3353
     content: c-octal-literals.md
