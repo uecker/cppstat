@@ -305,6 +305,11 @@ features:
       - Clang 12 (partial)
       - MSVC 14.39
       - Xcode 14
+  - desc: "Improved tag compatiblity"
+    paper: N3037
+    support:
+      - GCC 14
+      - clang 21 (partial)
   - desc: "Storage-class specifiers for compound literals"
     paper: N3038
     support:
