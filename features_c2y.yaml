@@ -343,6 +343,6 @@ features:
       - Xcode ?
 
   - desc: "Composite types"
-  - paper: N3652
-  - support:
+    paper: N3652
+    support:
       - GCC 16 (partial)
