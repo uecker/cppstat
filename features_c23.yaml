@@ -214,6 +214,8 @@ features:
       - Clang (partial)
       - Xcode (partial)
     hints:
+      - target: GCC
+        mssg: "Partially supported as an extension before."
       - target: Clang
         msg: "Supported as an extension. Missing support for scalars and variable-length arrays (VLAs)."
       - target: Xcode
