@@ -309,7 +309,7 @@ features:
     paper: N3037
     support:
       - GCC 14
-      - clang 21 (partial)
+      - Clang 21 (partial)
   - desc: "Storage-class specifiers for compound literals"
     paper: N3038
     support:
