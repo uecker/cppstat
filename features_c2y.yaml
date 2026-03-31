@@ -304,8 +304,12 @@ features:
   - desc: "`static_assert` without UB"
     paper: N3525
     support:
+      - GCC (partial)
       - Clang
       - Xcode ?
+    hints:
+      - target: GCC (partial)
+        msg: "still issues a warning"
 
   - desc: "Member access of an incomplete object"
     paper: N3532
