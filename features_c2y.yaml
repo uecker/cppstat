@@ -310,6 +310,7 @@ features:
   - desc: "Member access of an incomplete object"
     paper: N3532
     support:
+      - GCC
       - Clang
       - Xcode 16.4
 
