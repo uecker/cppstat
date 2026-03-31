@@ -51,8 +51,14 @@ features:
   - desc: "Remove imaginary types"
     paper: N3274
     support:
+      - GCC
       - Clang
       - Xcode ?
+    hints:
+      - target: GCC
+        msg: "GCC has never supported imaginary types."
+      - target: Clang
+        msg: "Clang has never supported imaginary types."
 
   - desc: "Floating-point exceptions for macro replacements"
     paper: N3286
@@ -123,6 +129,11 @@ features:
     support:
       - Clang
       - Xcode 16.4
+
+  - desc: "Matching of Multi-Dimensional Arrays in Generic Selection Expressions"
+    paper: N3348
+    support:
+      - GCC 16
 
   - desc: "Obsolete implicitly octal literals and delimited escape sequences"
     paper: N3353
@@ -258,9 +269,6 @@ features:
       - GCC 16
       - Xcode 16.4
 
-  - desc: "`auto` as placeholder type for parameters"
-    paper: N3472
-
   - desc: "Slay Some Earthly Demons XIII"
     paper: N3478
     support:
@@ -328,5 +336,11 @@ features:
   - desc: "Earthly Demon XV: Definition of Main"
     paper: N3623
     support:
+      - GCC
       - Clang
       - Xcode ?
+
+  - desc: "Composite types"
+    paper: N3652
+    support:
+      - GCC 16 (partial)
